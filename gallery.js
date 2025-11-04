@@ -1,6 +1,6 @@
 let mCurrentIndex = 0 // Tracks the current image index
 let mImages = [] // Array to hold GalleryImage objects
-const mUrl = 'https://your-json-url.com' // Replace with actual JSON URL
+const mUrl = images.json // Replace with actual JSON URL
 const mWaitTime = 5000 // Timer interval in milliseconds
 
 $(document).ready(() => {
@@ -12,7 +12,7 @@ $(document).ready(() => {
   // - toggle the rotation classes (rot90 and rot270)
   // - slideToggle the visibility of the .details section
   $('.moreIndicator').on('click', () => {
-    $('.moreIndicator').toggleClass('rot90 rot270')
+    $('.moreIndicator').toggleClass('rot90').toggleClass('rot270')
     $('.details').slideToggle()
   })
   // Select the "Next Photo" button and add a click event to call showNextPhoto
