@@ -1,0 +1,29 @@
+{
+    "images": [
+        {
+            "imgToon": "img/places/australia.jpg",
+            "imgTwisted": "img/places/australia.jpg",
+            "charName": "Australia",
+            "charDesc": "Loch Ard Gorge",
+            "stats": {
+                "skillCheck": 3,
+                "speed": 3,
+                "stamina": 3,
+                "stealth": 3,
+                "extraction": 3
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "abilityname",
+                    "toggle": "Passive",
+                    "description": "ability description"
+                },
+                "ability2": {
+                    "name": "abilityname",
+                    "toggle": "Passive",
+                    "description": "ability description"
+                }
+            }
+        }
+  ]
+}
