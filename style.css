@@ -12,9 +12,10 @@ body {
     max-width: 800px; /* Increased max-width for larger display */
     width: 100%; /* Keeps width responsive */
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
+    background: linear-gradient(to bottom, #464646, #232323);;
+    border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+    border: 7px solid #000;
 }
 
 /* Holds the displayed photo */
@@ -59,11 +60,11 @@ body {
 
 /* Metadata container styling */
 .details, .charDesc {
-    border: 1px dashed #000;
+    border: 7px solid #000;
     padding: 15px;
-    background-color: #f8f9fa; /* Light background to distinguish from main area */
-    border-radius: 4px;
-    color: #333;
+    background: linear-gradient(to bottom, #464646, #232323); /* Light background to distinguish from main area */
+    border-radius: 10px;
+    color: #fff;
     font-size: 1rem; /* Slightly larger text for readability */
 }
 

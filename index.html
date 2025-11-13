@@ -21,43 +21,47 @@
 
 <body>
     <div class="container my-4">
-        <div id="photoBooth" class="text-center bg-white p-3 rounded shadow-sm mx-auto">
-            <h1 class="banner mb-3">IS219 Slide Show</h1>
-            <div id="slideShow" class="row justify-content-center">
+        <div id="photoBooth" class="text-center bg-white rounded p-0 shadow-sm mx-auto">
+            <div class="progress-bar-striped rounded p-3">
 
-                <!-- Photo Holder Section -->
-                <div class="col-md-8 photoHolder mb-3">
-                    <img class="thumbnail img-fluid" id="photo"
-                        src="https://via.placeholder.com/518x389?text=Welcome+to+my+Gallery" alt="Gallery Image" />
-                </div>
+                <h1 class="banner mb-3">IS219 Slide Show</h1>
+                <div id="slideShow" class="row justify-content-center">
+
+                    <!-- Photo Holder Section -->
+                    <div class="col-md-8 photoHolder mb-3">
+                        <img class="thumbnail img-fluid" id="photo"
+                            src="https://via.placeholder.com/518x389?text=Welcome+to+my+Gallery" alt="Gallery Image" />
+                    </div>
+                        
+                    <div class="row justify-content-between mb-2">
+
+                        <!-- Character Description-->
+                        <div class="col-md-6 h-100 charDesc" style="overflow-y: auto;">
+                            <p class="descText"></p>
+                        </div>
+
+                        <!-- Extra Details -->
+                        <div class="col-md-6">
+                            <!-- More Indicator -->
+                            <div class="col-12 text-center my-2">
+                                <img class="moreIndicator rot90 img-fluid" src="img/more.png" alt="More Content" />
+                            </div>
+                            <!-- Photo Details Section -->
+                            <div class="col-12 details mt-3 p-2">
+                                <p class="location">Location: </p>
+                                <p class="description">Description: </p>
+                                <p class="date">Date: </p>
+                            </div>
+                        </div>
+                    </div>
                     
-                <div class="row justify-content-between mb-2">
-
-                    <!-- Character Description-->
-                    <div class="col-md-6 h-100 charDesc" style="overflow-y: auto;">
-                        <p class="descText"></p>
-                    </div>
-
-                    <!-- Extra Details -->
-                    <div class="col-md-6">
-                        <!-- More Indicator -->
-                        <div class="col-12 text-center my-2">
-                            <img class="moreIndicator rot90 img-fluid" src="img/more.png" alt="More Content" />
-                        </div>
-                        <!-- Photo Details Section -->
-                        <div class="col-12 details mt-3 p-2">
-                            <p class="location">Location: </p>
-                            <p class="description">Description: </p>
-                            <p class="date">Date: </p>
-                        </div>
+                    <!-- Navigation Controls -->
+                    <div id="nav" class="col-12 d-flex justify-content-between">
+                        <img id="prevPhoto" class="rot180 img-fluid" src="img/arrow.png" alt="Previous Photo" />
+                        <img id="nextPhoto" class="img-fluid" src="img/arrow.png" alt="Next Photo" />
                     </div>
                 </div>
-                
-                <!-- Navigation Controls -->
-                <div id="nav" class="col-12 d-flex justify-content-between">
-                    <img id="prevPhoto" class="rot180 img-fluid" src="img/arrow.png" alt="Previous Photo" />
-                    <img id="nextPhoto" class="img-fluid" src="img/arrow.png" alt="Next Photo" />
-                </div>
+
             </div>
         </div>
     </div>
