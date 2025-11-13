@@ -1,10 +1,10 @@
 {
     "images": [
         {
-            "imgToon": "img/places/australia.jpg",
-            "imgTwisted": "img/places/australia.jpg",
-            "charName": "Australia",
-            "charDesc": "Loch Ard Gorge",
+            "imgToon": "img/toons/Dandy.png",
+            "imgTwisted": "img/twisteds/Twisted_Dandy.webp",
+            "charName": "Dandy",
+            "charDesc": "[CONTENT REDACTED]",
             "stats": {
                 "skillCheck": 3,
                 "speed": 3,
