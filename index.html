@@ -26,25 +26,37 @@
             <div id="slideShow" class="row justify-content-center">
 
                 <!-- Photo Holder Section -->
-                <div class="col-12 col-md-8 photoHolder mb-3">
+                <div class="col-md-6 photoHolder mb-3">
                     <img class="thumbnail img-fluid" id="photo"
                         src="https://via.placeholder.com/518x389?text=Welcome+to+my+Gallery" alt="Gallery Image" />
                 </div>
+                    
+                <div class="row justify-content-between">
 
-                <!-- More Indicator and Navigation Controls -->
-                <div class="col-12 text-center my-2">
-                    <img class="moreIndicator rot90 img-fluid" src="img/more.png" alt="More Content" />
+                    <!-- Character Description-->
+                    <div class="col-md-6">
+                        <p class="charDesc"></p>
+                    </div>
+
+                    <!-- Extra Details -->
+                    <div class="col-md-6">
+                        <!-- More Indicator -->
+                        <div class="col-12 text-center my-2">
+                            <img class="moreIndicator rot90 img-fluid" src="img/more.png" alt="More Content" />
+                        </div>
+                        <!-- Photo Details Section -->
+                        <div class="col-12 details mt-3 p-2">
+                            <p class="location">Location: </p>
+                            <p class="description">Description: </p>
+                            <p class="date">Date: </p>
+                        </div>
+                    </div>
                 </div>
+                
+                <!-- Navigation Controls -->
                 <div id="nav" class="col-12 d-flex justify-content-between">
                     <img id="prevPhoto" class="rot180 img-fluid" src="img/arrow.png" alt="Previous Photo" />
                     <img id="nextPhoto" class="img-fluid" src="img/arrow.png" alt="Next Photo" />
-                </div>
-
-                <!-- Photo Details Section -->
-                <div class="col-12 details mt-3 p-2">
-                    <p class="location">Location: </p>
-                    <p class="description">Description: </p>
-                    <p class="date">Date: </p>
                 </div>
             </div>
         </div>

@@ -9,8 +9,8 @@ body {
 /* Main container for the slideshow and metadata */
 #photoBooth {
     padding: 25px; /* Increased padding for better spacing */
-    max-width: 500px; /* Increased max-width for larger display */
-    width: 90%; /* Keeps width responsive */
+    max-width: 800px; /* Increased max-width for larger display */
+    width: 100%; /* Keeps width responsive */
     margin: auto;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
@@ -58,7 +58,7 @@ body {
 }
 
 /* Metadata container styling */
-.details {
+.details, .charDesc {
     border: 1px dashed #000;
     padding: 15px;
     background-color: #f8f9fa; /* Light background to distinguish from main area */
@@ -68,7 +68,7 @@ body {
 }
 
 /* Style for each paragraph in details */
-.details p {
+.details p, .charDesc p {
     margin: 10px 0;
 }
 
