@@ -7,7 +7,7 @@ $(document).ready(() => {
   $('.details').hide() // Hide details initially
 
   // Call a function here to start the timer for the slideshow
-  $('.slideShow').startTimer()
+  startTimer()
   // Select the moreIndicator button and add a click event to:
   // - toggle the rotation classes (rot90 and rot270)
   // - slideToggle the visibility of the .details section
@@ -20,7 +20,7 @@ $(document).ready(() => {
   // Select the "Previous Photo" button and add a click event to call showPrevPhoto
   $('.prevPhoto').on('click', showPrevPhoto)
   // Call fetchJSON() to load the initial set of images
-  fetchJSON(images.json)
+  fetchJSON(mUrl)
 })
 
 // Function to fetch JSON data and store it in mImages
@@ -33,6 +33,7 @@ function fetchJSON () {
     success: data => {
       mImages = data.images
       swapPhoto()
+      startTimer()
     }
   })
   // On success, parse the JSON and push each image object into mImages array
@@ -44,7 +45,7 @@ function swapPhoto () {
   // Access mImages[mCurrentIndex] to update the image source and details
   mImages[mCurrentIndex]
   // Update the #photo element's src attribute with the current image's path
-  $('#photo').attribute('src', mImages[mCurrentIndex].imgPth)
+  $('#photo').attr('src', mImages[mCurrentIndex].imgPath)
   // Update the .location, .description, and .date elements with the current image's details
   $('.location').text('Location: ' + mImages[mCurrentIndex].imgLocation)
   $('.description').text('Description: ' + mImages[mCurrentIndex].description)
@@ -54,19 +55,33 @@ function swapPhoto () {
 // Advances to the next photo, loops to the first photo if the end of array is reached
 function showNextPhoto () {
   // Increment mCurrentIndex and call swapPhoto()
+  mCurrentIndex++
+  swapPhoto()
   // Ensure it loops back to the beginning if mCurrentIndex exceeds array length
+  if (mCurrentIndex >= mImages.length) {
+    mCurrentIndex = 0
+  } else {
+    swapPhoto()
+  }
 }
 
 // Goes to the previous photo, loops to the last photo if mCurrentIndex goes negative
 function showPrevPhoto () {
   // Decrement mCurrentIndex and call swapPhoto()
+  mCurrentIndex--
+  swapPhoto()
   // Ensure it loops to the end if mCurrentIndex is less than 0
+  if (mCurrentIndex < 0) {
+    mCurrentIndex = mImages.length - 1
+  } else {
+    swapPhoto()
+  }
 }
 
 // Starter code for the timer function
 function startTimer () {
   // Create a timer to automatically call `showNextPhoto()` every mWaitTime milliseconds
-  showNextPhoto().setTimeout(mWaitTime)
+  setInterval(showNextPhoto, mWaitTime)
   // Consider using setInterval to achieve this functionality
   // Hint: Make sure only one timer runs at a time
 }
