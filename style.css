@@ -93,3 +93,39 @@ Make it animate nicely. You'll need CSS3 for this */
     /* Add 270-degree rotation */
     transform: rotate(270deg);
 }
+
+
+/* Stat Styling */
+.statStars {
+    background: rgba(0,0,0,0.7);
+}
+
+.health {
+    background-image: linear-gradient(to bottom, #d35c5e, #723233);
+    border-radius: 3px
+}
+
+.skillCheck {
+    background-image: linear-gradient(to bottom, #d19356, #74502e);
+    border-radius: 3px
+}
+
+.moveSpeed {
+    background-image: linear-gradient(to bottom, #d3d45f, #737134);
+    border-radius: 3px
+}
+
+.stamina {
+    background-image: linear-gradient(to bottom, #5dd35b, #337132);
+    border-radius: 3px
+}
+
+.stealth {
+    background-image: linear-gradient(to bottom, #5c92d0, #324e73);
+    border-radius: 3px
+}
+
+.extraction {
+    background-image: linear-gradient(to bottom, #8851d2, #472c71);
+    border-radius: 3px
+}

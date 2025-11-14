@@ -1,0 +1,54 @@
+{
+    "characters": [
+        {
+            "imgPath": "img/toons/Dandy.png",
+            "charName": "Dandy",
+            "charDesc": "[CONTENT REDACTED]",
+            "stats": {
+                "health": "❤",
+                "skillCheck": "★★★★★",
+                "speed": "★★★★★",
+                "stamina": "★★★★★",
+                "stealth": "★★★★★",
+                "extraction": "★★★★★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "abilityname",
+                    "toggle": "Passive",
+                    "description": "ability description"
+                },
+                "ability2": {
+                    "name": "N/A",
+                    "toggle": "N/A",
+                    "description": "No Ability 2"
+                }
+            }
+        },
+        {
+            "imgPath": "img/toons/Pebble.webp",
+            "charName": "Pebble",
+            "charDesc": "[CONTENT REDACTED]",
+            "stats": {
+                "health": "❤❤",
+                "skillCheck": "★★★",
+                "speed": "★★★★★",
+                "stamina": "★★★★",
+                "stealth": "★★★",
+                "extraction": "★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "abilityname",
+                    "toggle": "Passive",
+                    "description": "ability description"
+                },
+                "ability2": {
+                    "name": "abilityname",
+                    "toggle": "Passive",
+                    "description": "ability description"
+                }
+            }
+        }
+  ]
+}
