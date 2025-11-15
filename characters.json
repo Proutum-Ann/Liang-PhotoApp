@@ -14,9 +14,9 @@
             },
             "abilities": {
                 "ability1": {
-                    "name": "abilityname",
+                    "name": "Dandy's World",
                     "toggle": "Passive",
-                    "description": "ability description"
+                    "description": "The star of the show."
                 },
                 "ability2": {
                     "name": "N/A",
@@ -39,14 +39,164 @@
             },
             "abilities": {
                 "ability1": {
-                    "name": "abilityname",
-                    "toggle": "Passive",
-                    "description": "ability description"
+                    "name": "Speak!",
+                    "toggle": "Active",
+                    "description": "This Toon can bark loudly, drastically decreasing Stealth to a value of -40 and alerting any Twisteds nearby to his location. Has a cooldown of 60."
                 },
                 "ability2": {
-                    "name": "abilityname",
+                    "name": "Fetch!",
                     "toggle": "Passive",
-                    "description": "ability description"
+                    "description": "This Toon can sniff out items, causing them to be highlighted when in the Toon's vicinity."
+                }
+            }
+        },
+        {
+            "imgPath": "img/toons/Astro.webp",
+            "charName": "Astro",
+            "charDesc": "[CONTENT REDACTED]",
+            "stats": {
+                "health": "❤❤",
+                "skillCheck": "★★",
+                "speed": "★★★",
+                "stamina": "★★★",
+                "stealth": "★★★★★",
+                "extraction": "★★★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "Nap Time",
+                    "toggle": "Active",
+                    "description": "This Toon can create a pulse that fully restores the Stamina of the Toons around him. Has a cooldown of 75."
+                },
+                "ability2": {
+                    "name": "Well Rested",
+                    "toggle": "Passive",
+                    "description": "This Toon regenerates Stamina 50% faster, and can see Toons below 50% Stamina around the map."
+                }
+            }
+        },
+        {
+            "imgPath": "img/toons/Sprout.webp",
+            "charName": "Sprout",
+            "charDesc": "[CONTENT REDACTED]",
+            "stats": {
+                "health": "❤❤",
+                "skillCheck": "★★",
+                "speed": "★★★★",
+                "stamina": "★★★★★",
+                "stealth": "★★★",
+                "extraction": "★★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "Baked Sweets",
+                    "toggle": "Active",
+                    "description": "This Toon can heal a targeted Toon by 1 Heart at the cost of 100 Tapes. For each extra Sprout, the cost increases by 50 Tapes and the Cooldown increases by 30. Has a cooldown of 100."
+                },
+                "ability2": {
+                    "name": "Overprotective",
+                    "toggle": "Passive",
+                    "description": "This Toon can see where all the other alive Toons are, along with their current Health status."
+                }
+            }
+        },
+        {
+            "imgPath": "img/toons/Shelly.png",
+            "charName": "Shelly",
+            "charDesc": "[CONTENT REDACTED]",
+            "stats": {
+                "health": "❤❤",
+                "skillCheck": "★★★★★",
+                "speed": "★★★",
+                "stamina": "★★",
+                "stealth": "★★★",
+                "extraction": "★★★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "Inspiration",
+                    "toggle": "Active",
+                    "description": "This Toon can boost the Extraction Speed of a selected Toon by 75% for 15 seconds. Has a cooldown of 60."
+                },
+                "ability2": {
+                    "name": "Problem Solver",
+                    "toggle": "Passive",
+                    "description": "This Toon gains a 25% Movement Speed boost when any Machine is completed for 10 seconds."
+                }
+            }
+        },
+        {
+            "imgPath": "img/toons/Vee.webp",
+            "charName": "Vee",
+            "charDesc": "[CONTENT REDACTED]",
+            "stats": {
+                "health": "❤❤",
+                "skillCheck": "★★★★",
+                "speed": "★★",
+                "stamina": "★★★",
+                "stealth": "★★",
+                "extraction": "★★★★★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "Mic Check",
+                    "toggle": "Active",
+                    "description": "This Toon can highlight all Twisteds and Machines on the Floor for 5 seconds. Has a Cooldown of 50."
+                },
+                "ability2": {
+                    "name": "Camera Hijack",
+                    "toggle": "Passive",
+                    "description": "This Toon will have the 2 nearest uncompleted Machines highlighted for them."
+                }
+            }
+        },
+        {
+            "imgPath": "img/toons/Shrimpo.png",
+            "charName": "Shrimpo",
+            "charDesc": "Shrimpo is one angry shrimp! Often causing issues for  Dandy and friends by making a mess and never learning his lesson! No one likes a bully!",
+            "stats": {
+                "health": "❤❤❤",
+                "skillCheck": "★",
+                "speed": "★",
+                "stamina": "★",
+                "stealth": "★",
+                "extraction": "★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "Bully",
+                    "toggle": "Passive",
+                    "description": "Stealth is drastically lower than any other Toon. Only play this Toon if you are looking for a challenge."
+                },
+                "ability2": {
+                    "name": "N/A",
+                    "toggle": "N/A",
+                    "description": "No Ability 2"
+                }
+            }
+        },
+        {
+            "imgPath": "img/toons/Poppy.webp",
+            "charName": "Poppy",
+            "charDesc": "Poppy is one fun friend! This excitable Toon loves to share what's on her mind! Poppy shows children it's okay to be unique and not to be afraid to share your interests with others!",
+            "stats": {
+                "health": "❤❤❤",
+                "skillCheck": "★★★",
+                "speed": "★★★",
+                "stamina": "★★★",
+                "stealth": "★★★",
+                "extraction": "★★★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "Panic Pop",
+                    "toggle": "Passive",
+                    "description": "This Toon receives a 50% Speed boost for 3 seconds when attacked."
+                },
+                "ability2": {
+                    "name": "N/A",
+                    "toggle": "N/A",
+                    "description": "No Ability 2"
                 }
             }
         }

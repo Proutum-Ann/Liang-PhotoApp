@@ -56,6 +56,13 @@ function swapPhoto () {
   $('.stamStat').text(mImages[mCurrentIndex].stats.stamina)
   $('.stealthStat').text(mImages[mCurrentIndex].stats.stealth)
   $('.extraStat').text(mImages[mCurrentIndex].stats.extraction)
+  //Abilities
+  $('#abilityName1').text(mImages[mCurrentIndex].abilities.ability1.name)
+  $('#abilityTog1').text(mImages[mCurrentIndex].abilities.ability1.toggle)
+  $('#abilityDesc1').text(mImages[mCurrentIndex].abilities.ability1.description)
+  $('#abilityName2').text(mImages[mCurrentIndex].abilities.ability2.name)
+  $('#abilityTog2').text(mImages[mCurrentIndex].abilities.ability2.toggle)
+  $('#abilityDesc2').text(mImages[mCurrentIndex].abilities.ability2.description)
 
   //old code
   /* $('.location').text('Location: ' + mImages[mCurrentIndex].imgLocation)
