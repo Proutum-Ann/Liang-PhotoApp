@@ -199,6 +199,106 @@
                     "description": "No Ability 2"
                 }
             }
+        },
+        {
+            "imgPath": "img/toons/Boxten.webp",
+            "charName": "Boxten",
+            "charDesc": "Boxten is a somewhat shy Toon. He is most comfortable around those he knows. He may not always know what to say, but he always tries to put a smile on a friend's face.",
+            "stats": {
+                "health": "❤❤❤",
+                "skillCheck": "★★★",
+                "speed": "★★★",
+                "stamina": "★★★",
+                "stealth": "★★★",
+                "extraction": "★★★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "Wind-Up",
+                    "toggle": "Passive",
+                    "description": "This Toon gains 6% more Extraction Speed for every alive Toon in the round. Maxes at 48%."
+                },
+                "ability2": {
+                    "name": "N/A",
+                    "toggle": "N/A",
+                    "description": "No Ability 2"
+                }
+            }
+        },
+        {
+            "imgPath": "img/toons/Brusha.webp",
+            "charName": "Brusha",
+            "charDesc": "[TO BE ADDED]",
+            "stats": {
+                "health": "❤❤❤",
+                "skillCheck": "★★★★",
+                "speed": "★★★",
+                "stamina": "★★★",
+                "stealth": "★★",
+                "extraction": "★★★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "Artistic Inspiration",
+                    "toggle": "Toggle",
+                    "description": "Enter Painting Mode to inspire nearby Toons with a 50% Skill Check boost while they remain in your circle. This Toon moves 25% slower while in Painting Mode. Has a cooldown of 5."
+                },
+                "ability2": {
+                    "name": "N/A",
+                    "toggle": "N/A",
+                    "description": "No Ability 2"
+                }
+            }
+        },
+        {
+            "imgPath": "img/toons/Flutter.webp",
+            "charName": "Flutter",
+            "charDesc": "Flutter is an outgoing friend who has a positive look on life! She loves to cheer up those around her and spread kind messages of friendship!",
+            "stats": {
+                "health": "❤❤❤",
+                "skillCheck": "★★",
+                "speed": "★★★★",
+                "stamina": "★★★★",
+                "stealth": "★★★",
+                "extraction": "★★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "Floaty Dash",
+                    "toggle": "Active",
+                    "description": "This Toon can dash forward, drastically increasing her Movement Speed for 0.75 seconds. Has a cooldown of 45 seconds."
+                },
+                "ability2": {
+                    "name": "N/A",
+                    "toggle": "N/A",
+                    "description": "No Ability 2"
+                }
+            }
+        },
+        {
+            "imgPath": "img/toons/Soulvester.png",
+            "charName": "Soulvester",
+            "charDesc": "Soulvester is a ghost that loves to haunt, specifically he loves to haunt armor! He considers himself one of the strongest Toons around! Whether that is true is still up for some debate.",
+            "stats": {
+                "health": "❤❤❤❤",
+                "skillCheck": "★★★★★",
+                "speed": "★",
+                "stamina": "★",
+                "stealth": "★★★",
+                "extraction": "★★★★★"
+            },
+            "abilities": {
+                "ability1": {
+                    "name": "Knightly Armor",
+                    "toggle": "Passive",
+                    "description": "This Toon has an extra heart and is immune to damage from ranged attacks."
+                },
+                "ability2": {
+                    "name": "N/A",
+                    "toggle": "N/A",
+                    "description": "No Ability 2"
+                }
+            }
         }
   ]
 }
