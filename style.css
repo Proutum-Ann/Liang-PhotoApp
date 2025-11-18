@@ -3,7 +3,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Century Gothic', sans-serif;
-    background-image: url('../img/dw_lobby.jpg');
+    background-image: url('img/dw_lobby.jpg');
     background-size: cover;
     background-attachment: fixed;
     font-family: "Fredoka", sans-serif;
