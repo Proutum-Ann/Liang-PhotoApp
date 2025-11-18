@@ -149,8 +149,9 @@ Make it animate nicely. You'll need CSS3 for this */
 .ability {
     border-radius: 7px;
     background: rgba(0,0,0,0.7);
-    height: 50%;
+    height: 50px;
     overflow-y: auto;
     scrollbar-width: none;
     font-weight: normal;
+    padding: 1%
 }
